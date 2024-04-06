@@ -30,10 +30,10 @@ td{
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    padding: 10px 20px;
+    padding: 25px;
     border-radius: 15px;
     background: hsl(0, 0%, 100%);
-    margin-top: 5%;
+    margin-top: 4%;
 }
 
 .head-content{
@@ -56,6 +56,8 @@ td{
 
 .head-content p{
     margin-top: 20px;
+    color: hsl(30, 10%, 34%);
+    font-size: 0.9rem;
 }
 
 .body-container{
@@ -148,3 +150,45 @@ td{
     margin-top: 8px;
     color: hsl(30, 10%, 34%);
 }
+
+.fourth-content{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth-content h1{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+}
+
+.fourth-content p{
+    margin-top: 10px;
+    color: hsl(30, 10%, 34%);
+    font-size: 0.9rem;
+}
+
+.fourth-content table{
+    margin-top: 15px;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.fourth-content table tr{
+    padding: 10px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.fourth-content table tr td{
+    padding: 10px;
+    color: hsl(30, 10%, 34%);
+    font-size: 0.9rem;
+}
+
+.fourth-content table tr .info{
+    color: hsl(14, 45%, 36%);
+    font-weight: 500;
+}
+
