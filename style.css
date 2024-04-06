@@ -178,7 +178,7 @@ td{
 
 .fourth-content table tr{
     padding: 10px;
-    border-bottom: 1px solid hsl(30, 18%, 87%);
+    border-bottom: 1.5px solid hsl(30, 18%, 87%);
 }
 
 .fourth-content table tr td{
