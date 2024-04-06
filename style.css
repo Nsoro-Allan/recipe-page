@@ -48,6 +48,7 @@ td{
 }
 
 .head-content h1{
+    font-weight: 500;
     margin-top: 25px;
     letter-spacing: 1.5px;
     color: hsl(24, 5%, 18%);
@@ -68,7 +69,7 @@ td{
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 15px 20px;
+    padding: 25px;
     background: hsl(330, 100%, 98%);
     border-radius: 12px;
 }
@@ -88,5 +89,62 @@ td{
     font-size: 0.8rem;
     padding-left: 10px;
     margin-top: 8px;
+    color: hsl(30, 10%, 34%);
 }
 
+.second-content{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-content h1{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+}
+
+.second-content ul{
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+.second-content ul li{
+    font-size: 0.8rem;
+    padding-left: 10px;
+    margin-top: 8px;
+    color: hsl(30, 10%, 34%);
+}
+
+.long-line{
+    margin-top: 30px;
+    padding: 0.8px;
+    width: 100%;
+    background: hsl(30, 18%, 87%);
+}
+
+.third-content{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.third-content h1{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: hsl(14, 45%, 36%);
+}
+
+.third-content ol{
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+.third-content ol li{
+    font-size: 0.8rem;
+    padding-left: 10px;
+    margin-top: 8px;
+    color: hsl(30, 10%, 34%);
+}
