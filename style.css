@@ -48,6 +48,7 @@ td{
 }
 
 .head-content h1{
+    font-size: 1.8rem;
     font-weight: 500;
     margin-top: 25px;
     letter-spacing: 1.5px;
@@ -190,5 +191,15 @@ td{
 .fourth-content table tr .info{
     color: hsl(14, 45%, 36%);
     font-weight: 500;
+}
+
+/* Responsiveness Starts Here */
+
+@media screen and (min-width: 240px) and (max-width: 1000px) {
+
+    .main-container{
+        width: 95%;
+    }
+
 }
 
